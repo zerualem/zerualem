@@ -1,4 +1,6 @@
-## Welcome to my Github page!
+
+
+Here you will find interesting discussion about statistical modeling and machine learing topics.
 
 <ul>
   {% for post in site.posts %}
