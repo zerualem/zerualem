@@ -3,7 +3,7 @@
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ _posts/2017-04-25-PCA.md }}">{{ Principal component analysis }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
       {{ post.excerpt }}
     </li>
   {% endfor %}
